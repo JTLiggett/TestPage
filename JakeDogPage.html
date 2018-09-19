@@ -1,35 +1,84 @@
 <html>
-
+<style>
+    body{
+         background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3c/Verde_Free_Bright_Green_Spring_Leaves_Creative_Commons_%283097577673%29.jpg");
+        }
+    </style>
 <head>
-    <title>FirstWebpage!</title>
+    <title>July30</title>
     <style>
+        
         h1 {
-            color: orange;
+            color: #C71585;
             margin-left: 90px;
+            text-shadow: 2px 2px 5px red;
         }
         
         h2 {
-            color: green;
-            background-color: blue;
+            color: lime;
+            background-color: #9F33FF;
         }
+        
         
         img {
             padding: 6px;
-            border: 4px solid #0000ff;
+            border: 8px solid #C71585;
         }
+        div.JakePhoto img{
+        position:relative;
+        
+        width: 600px;
+        height: 400px;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        }
+         img {
+            padding: 6px;
+            border: 8px solid #C71585;
+        }
+        div.ArnoldPhoto img{
+        position:relative;
+        border-radius: 10000px;
+        right:-700px;
+        top:-400px;
+        width: 600px;
+        height: 400px;
+        
+        }
+         div.FordPhoto img{
+        position:relative;
+        right:-400px;
+        top:-100px;
+        width: 600px;
+        height: 400px;
+        
+        }
+        li.Arnold {
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+ li.Ford {
+    position: absolute;
+    left: 800px;
+    top: 800px;
+}
     </style>
 </head>
 
 <body>
-    <h2>My Favorite Dogs</h2>
+    <h2>Awesome People Born On July 30</h2>
 
     <h1>
 <ul>
-  <li>Cockerspaniels</li>
-  <li>Poodles</li>
+  <li>Jake Liggett</li>
+  <li class = "Arnold">Arnold Schwarzenegger</li>
+  <li class = "Ford">Henry Ford</li>
 </ul></h1>
-
-    <img src="https://yt3.ggpht.com/a-/AJLlDp0E07BT1kDnFKVNQXVrDXYYkm_wk8zvLftOMg=s900-mo-c-c0xffffffff-rj-k-no" style="width:650px;height:650px;" >
-
+<div class = "JakePhoto">
+    <img src="Jake.jpg" alt = "JakePhoto">
+</div>
+<div class = "ArnoldPhoto"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Arnold_Schwarzenegger_%281974%29.jpg/220px-Arnold_Schwarzenegger_%281974%29.jpg" alt = "ArnoldPhoto"></div>
+<div class = "FordPhoto"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Henry_Ford_1888.jpg/170px-Henry_Ford_1888.jpg" alt = "FordPhoto"></div>
 </body>
 </html>
